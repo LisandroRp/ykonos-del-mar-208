@@ -1,35 +1,110 @@
 export const inventory = [
   {
-    category: "Cocina",
+    id: "cubiertos",
+    category: "Cubiertos",
     items: [
-      { name: "Platos", quantity: 6 },
-      { name: "Vasos", quantity: 8 },
-      { name: "Cubiertos", quantity: 6 },
-      { name: "Tazas", quantity: 4 },
-      { name: "Ollas y sartenes", quantity: 3 }
+      { name: "Cucharitas chicas con mango de madera", quantity: 6 },
+      { name: "Cucharas grandes con mango de madera", quantity: 6 },
+      { name: "Tenedores con mango de madera", quantity: 6 },
+      { name: "Cuchillos con mango de madera", quantity: 6 }
     ]
   },
   {
-    category: "Dormitorio",
+    id: "utensilios",
+    category: "Utensilios de cocina",
     items: [
-      { name: "Almohadas", quantity: 4 },
-      { name: "Juego de sábanas", quantity: 2 },
-      { name: "Perchas", quantity: 8 }
+      { name: "Cucharas de madera S, M y L", quantity: 3 },
+      { name: "Sacacorchos", quantity: 1 },
+      { name: "Pelapapas", quantity: 1 },
+      { name: "Cuchillo grande con mango blanco de plástico", quantity: 1 },
+      { name: "Rallador", quantity: 1 },
+      { name: "Espátula de plástico", quantity: 1 },
+      { name: "Espátula flexible tipo silicona", quantity: 1 },
+      { name: "Pinza de silicona y acero inoxidable", quantity: 1 },
+      { name: "Espumadera para pastas", quantity: 1 },
+      { name: "Tablas de madera chicas", quantity: 2 },
+      { name: "Tabla de madera grande", quantity: 1 },
+      { name: "Tabla de madera redonda", quantity: 1 },
+      { name: "Tablas de plástico rosa y verde", quantity: 2 },
+      { name: "Fuentes para horno", quantity: 2 }
     ]
   },
   {
-    category: "Baño",
+    id: "vajilla",
+    category: "Vajilla",
     items: [
-      { name: "Toallas de baño", quantity: 4 },
-      { name: "Toallas de mano", quantity: 4 },
-      { name: "Secador de pelo", quantity: 1 }
+      { name: "Platos playos grandes", quantity: 5 },
+      { name: "Platos playos medianos", quantity: 4 },
+      { name: "Platos playos chicos", quantity: 4 },
+      { name: "Platos hondos", quantity: 4 },
+      { name: "Platos apoya tazas", quantity: 4 },
+      { name: "Bowls chicos", quantity: 4 },
+      { name: "Bowls grandes de vidrio", quantity: 2 }
     ]
   },
   {
-    category: "Balcón",
+    id: "tazas-vasos-copas",
+    category: "Tazas, vasos y copas",
     items: [
-      { name: "Sillas exteriores", quantity: 2 },
-      { name: "Mesa exterior", quantity: 1 }
+      { name: "Tazas chicas", quantity: 4 },
+      { name: "Taza grande", quantity: 1 },
+      { name: "Tazas de vidrio", quantity: 6 },
+      { name: "Tazas Nespresso grandes", quantity: 2 },
+      { name: "Tazas Nespresso chicas", quantity: 2 },
+      { name: "Copas de champagne", quantity: 2 },
+      { name: "Vasos de whisky", quantity: 6 }
+    ]
+  },
+  {
+    id: "manteleria",
+    category: "Mantelería",
+    items: [
+      { name: "Manteles individuales", quantity: 5 },
+      { name: "Mantel grande", quantity: 1 }
+    ]
+  },
+  {
+    id: "electrodomesticos-cocina",
+    category: "Electrodomésticos y cocina",
+    items: [
+      { name: "Heladera", quantity: 1 },
+      { name: "Freezer", quantity: 1 },
+      { name: "Microondas", quantity: 1 },
+      { name: "Pava eléctrica", quantity: 1 },
+      { name: "Cafetera Dolce Gusto", quantity: 1 },
+      { name: "Sartén antiadherente", quantity: 1 },
+      { name: "Olla grande con tapa de vidrio", quantity: 1 },
+      { name: "Olla chica", quantity: 1 },
+      { name: "Tacho de basura", quantity: 1 },
+      { name: "Escurreplatos", quantity: 1 }
+    ]
+  },
+  {
+    id: "playa",
+    category: "Playa",
+    items: [{ name: "Heladerita térmica para playa", quantity: 1 }]
+  },
+  {
+    id: "living-iluminacion",
+    category: "Living e iluminación",
+    items: [
+      { name: "Sillón cama king size", quantity: 1 },
+      { name: "Mesas ratonas", quantity: 2 },
+      { name: "Banquetas", quantity: 4 },
+      { name: "Futones de mimbre", quantity: 2 },
+      { name: "Almohadones", quantity: 4 },
+      { name: "Desayunador con vajillero", quantity: 1 },
+      { name: "Veladores a batería con cuello flexible", quantity: 2 }
+    ]
+  },
+  {
+    id: "limpieza",
+    category: "Limpieza",
+    items: [
+      { name: "Escoba", quantity: 1 },
+      { name: "Palita", quantity: 1 },
+      { name: "Aspiradora", quantity: 1 },
+      { name: "Mopa / lampazo para piso", quantity: 1 }
     ]
   }
 ];
