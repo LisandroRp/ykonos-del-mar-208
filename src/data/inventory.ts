@@ -26,6 +26,7 @@ export const inventory = [
       { name: "Tabla de madera grande", quantity: 1 },
       { name: "Tabla de madera redonda", quantity: 1 },
       { name: "Tablas de plástico rosa y verde", quantity: 2 },
+      { name: "Tuppers S, M y L", quantity: 3 },
       { name: "Fuentes para horno", quantity: 2 }
     ]
   },
@@ -75,6 +76,7 @@ export const inventory = [
       { name: "Sartén antiadherente", quantity: 1 },
       { name: "Olla grande con tapa de vidrio", quantity: 1 },
       { name: "Olla chica", quantity: 1 },
+      { name: "Cubeteras", quantity: 2 },
       { name: "Tacho de basura", quantity: 1 },
       { name: "Escurreplatos", quantity: 1 }
     ]
@@ -93,8 +95,20 @@ export const inventory = [
       { name: "Banquetas", quantity: 4 },
       { name: "Futones de mimbre", quantity: 2 },
       { name: "Almohadones", quantity: 4 },
+      { name: "Manta de polar para sillón", quantity: 1 },
       { name: "Desayunador con vajillero", quantity: 1 },
       { name: "Veladores a batería con cuello flexible", quantity: 2 }
+    ]
+  },
+  {
+    id: "dormitorio-ropa-cama",
+    category: "Dormitorio y ropa de cama",
+    items: [
+      { name: "Almohadas inteligentes", quantity: 4 },
+      { name: "Almohadas de plumas", quantity: 2 },
+      { name: "Frazadas", quantity: 2 },
+      { name: "Veladores", quantity: 2 },
+      { name: "Caja fuerte", quantity: 1 }
     ]
   },
   {
