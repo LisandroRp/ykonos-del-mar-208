@@ -20,6 +20,10 @@ export const rules = [
       "No está permitido fumar dentro del departamento. Utilizá solo los espacios permitidos por el edificio."
   },
   {
+    title: "Mascotas",
+    description: "No se permiten mascotas dentro del departamento."
+  },
+  {
     title: "Salida",
     description:
       "Al retirarte, verificá luces, aire acondicionado, canillas, ventanas y puerta de ingreso."

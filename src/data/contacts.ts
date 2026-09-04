@@ -25,9 +25,14 @@ export const contacts = [
   },
   {
     icon: "🏢",
-    name: "Administración",
-    description: "Consultas administrativas relacionadas con el edificio.",
-    placeholder: "Número a confirmar"
+    name: "Guillermo",
+    description: "Administración del edificio. Disponible de 8 a 22 hs.",
+    actions: [
+      {
+        label: "Llamar",
+        href: "tel:+5491161301395"
+      }
+    ]
   }
 ];
 

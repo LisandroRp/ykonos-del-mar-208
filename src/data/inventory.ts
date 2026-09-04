@@ -84,7 +84,13 @@ export const inventory = [
   {
     id: "playa",
     category: "Playa",
-    items: [{ name: "Heladerita térmica para playa", quantity: 1 }]
+    items: [
+      { name: "Heladerita térmica para playa", quantity: 1 },
+      { name: "Sillas de playa", quantity: 3 },
+      { name: "Mesa de playa", quantity: 1 },
+      { name: "Reposeras", quantity: 2 },
+      { name: "Sombrilla", quantity: 1 }
+    ]
   },
   {
     id: "living-iluminacion",
@@ -108,7 +114,15 @@ export const inventory = [
       { name: "Almohadas de plumas", quantity: 2 },
       { name: "Frazadas", quantity: 2 },
       { name: "Veladores", quantity: 2 },
-      { name: "Caja fuerte", quantity: 1 }
+      { name: "Caja fuerte", quantity: 1 },
+      { name: "Perchas", quantity: 5 }
+    ]
+  },
+  {
+    id: "bano",
+    category: "Baño",
+    items: [
+      { name: "Alfombra de baño", quantity: 1 }
     ]
   },
   {

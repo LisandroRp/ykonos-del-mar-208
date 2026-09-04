@@ -7,7 +7,11 @@ export const usefulInfo = [
   {
     icon: "📺",
     title: "TV",
-    items: ["Instrucciones de uso: a confirmar", "Apps disponibles: a confirmar"]
+    items: [
+      "Están disponibles las aplicaciones de streaming.",
+      "Podés iniciar sesión con tu cuenta personal.",
+      "No olvides cerrar sesión antes de retirarte."
+    ]
   },
   {
     icon: "🔌",
@@ -20,7 +24,11 @@ export const usefulInfo = [
   {
     icon: "🚗",
     title: "Estacionamiento",
-    items: ["Modalidad y disponibilidad: a confirmar"]
+    items: [
+      "El estacionamiento está abierto las 24 hs.",
+      "El control remoto se encuentra en el cajón del vajillero.",
+      "Al retirarse, por favor dejar el control remoto nuevamente en ese cajón."
+    ]
   },
   {
     icon: "🕒",
