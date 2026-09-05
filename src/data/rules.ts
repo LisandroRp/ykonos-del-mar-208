@@ -24,6 +24,11 @@ export const rules = [
     description: "No se permiten mascotas dentro del departamento."
   },
   {
+    title: "Niños pequeños",
+    description:
+      "El departamento no es apto para niños pequeños, ya que el balcón no cuenta con protección de seguridad."
+  },
+  {
     title: "Salida",
     description:
       "Al retirarte, verificá luces, aire acondicionado, canillas, ventanas y puerta de ingreso."
