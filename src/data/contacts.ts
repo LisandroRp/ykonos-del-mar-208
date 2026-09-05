@@ -7,11 +7,13 @@ export const contacts = [
     description: "Propietario del departamento. Para consultas sobre tu estadía.",
     actions: [
       {
+        kind: "whatsapp",
         label: "WhatsApp",
         href: "https://wa.me/549111144373492",
         primary: true
       },
       {
+        kind: "phone",
         label: "Llamar",
         href: "tel:+549111144373492"
       }
@@ -29,6 +31,13 @@ export const contacts = [
     description: "Administración del edificio. Disponible de 8 a 22 hs.",
     actions: [
       {
+        kind: "whatsapp",
+        label: "WhatsApp",
+        href: "https://wa.me/5491161301395",
+        primary: true
+      },
+      {
+        kind: "phone",
         label: "Llamar",
         href: "tel:+5491161301395"
       }
